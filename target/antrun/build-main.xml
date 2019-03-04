@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>---------开始复制jar包到共享目录下----------</echo>
+  <copy file="target/HdfsDome-1.0-SNAPSHOT.jar" toFile="F:\hadoopShareDirectory\HdfsDemo.jar"></copy>
+</target>
+</project>
